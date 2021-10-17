@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import Header from './cmps/header/Header';
+import Hero from './cmps/hero/Hero'
 import './App.css';
+import Footer from './cmps/footer/Footer'
+import About from './cmps/about/About'
+import Projects from './cmps/projects/Projects'
+
+import projects from './projects-data';
 
 function App() {
+  const [allProjects, setProjects] = useState(projects)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Hero/>
+      <About/>
+      <Projects allProjects={allProjects}/>
+      <Footer/>
     </div>
   );
 }

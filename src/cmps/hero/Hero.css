@@ -1,0 +1,45 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* flex-direction: column; */
+  height: 100vh;
+
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-container {
+  margin-left: 80px;
+}
+
+.header {
+  text-align: left;
+}
+
+p {
+  max-width: 510px;
+  text-align: left;
+  font-family: CooperHewitt-Medium;
+}
+
+.resume-btn {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-family: CooperHewitt-Medium;
+
+  border: solid 2px #5454fb;
+  background-color: #5454fb;
+  color: white;
+  transition: all 0.8s;
+}
+.resume-btn:hover {
+  cursor: pointer;
+  background-color: #23238f;
+    border: solid 2px #23238f;
+}
+
+.hero-header {
+  font-family: OpenSans-ExtraBold;
+}

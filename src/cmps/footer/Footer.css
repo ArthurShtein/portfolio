@@ -1,0 +1,27 @@
+footer {
+  height: 70px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+.footer-p {
+  font-size: 20px;
+}
+
+.icon {
+  margin-top: 10px;
+  font-size: 30px;
+  color: #5454fb;
+  transition: all 0.8s;
+}
+.icon:hover {
+  cursor: pointer;
+  color: #23238f;
+}
+
+.icon:not(:last-child) {
+  margin-right: 10px;
+}

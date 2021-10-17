@@ -1,0 +1,21 @@
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.projects-header{
+    text-align: center;
+    color: white;
+    background-color: #5454fb;
+    padding: 10px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
