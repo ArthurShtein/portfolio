@@ -1,6 +1,7 @@
 import React from "react";
 import profilePicture from "./prof.jpg";
 import "./About.css";
+import { AiOutlineDoubleRight } from "react-icons/ai";
 
 function About() {
   return (

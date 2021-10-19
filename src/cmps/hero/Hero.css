@@ -1,12 +1,13 @@
 main {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: space-between;
   /* flex-direction: column; */
   height: 100vh;
 
+  padding: 0 120px;
   text-align: left;
-  background-color: rgb(255, 255, 255);
+  background-color: #186583;
 }
 
 .main-container {
@@ -24,22 +25,27 @@ p {
 }
 
 .resume-btn {
-  padding: 5px 10px;
+  padding: 9px 30px;
   margin-top: 10px;
   border-radius: 4px;
   font-family: CooperHewitt-Medium;
 
-  border: solid 2px #5454fb;
-  background-color: #5454fb;
+  border: solid 2px #EE9486;
+  background-color: #EE9486;
   color: white;
   transition: all 0.8s;
 }
 .resume-btn:hover {
   cursor: pointer;
-  background-color: #23238f;
-    border: solid 2px #23238f;
+  background-color: #d16150;
+  border: solid 2px #d16150;
 }
 
 .hero-header {
+  font-size: 75px;
   font-family: OpenSans-ExtraBold;
+}
+
+.hero-p {
+    font-size: 55px;
 }

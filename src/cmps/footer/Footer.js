@@ -7,6 +7,7 @@ function Footer() {
   return (
     <footer>
       <p className="footer-p"> Made by Arthur Shtein &copy;</p>
+      <p> example@example.com</p>
       <div>
         <FaFacebookSquare className="facebook icon" />
         <FaLinkedin className="linkedin icon" />
